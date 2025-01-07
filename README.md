@@ -13,7 +13,6 @@ git stash drop		Delete a specific stash.
 git stash clear		Delete all stashes.
 git stash branch	Create a branch from a stash.
 git stash show		View details of a stash.
---------------------------------------------------------------------
 
 --------------------------------------------------------------------
 Git rebase Commands : ----------------------------------------------
@@ -33,4 +32,16 @@ git rebase --continue
 
 - then all the changes of main will be featured into feature branch.
 
+--------------------------------------------------------------------
+Git merge Commands : -----------------------------------------------
+--------------------------------------------------------------------
+
+git fetch origin
+git checkout your-branch-name
+git merge develop
+- resolve conflicts if there are any
+git push origin your-branch-name
+
+--------------------------------------------------------------------
+Git pr Commands : -----------------------------------------------
 --------------------------------------------------------------------
