@@ -2,9 +2,3 @@ Hello from mit. I'm developing front-end here.
 Hello this is vivek. I'm building backend.
 here is the stashed content.
 hello
-on commit 3
-on commit 4
-on commit 1
-on commit 2
-changes comming from vivek branch
-on dev branch
