@@ -14,3 +14,23 @@ git stash clear		Delete all stashes.
 git stash branch	Create a branch from a stash.
 git stash show		View details of a stash.
 --------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Git rebase Commands : ----------------------------------------------
+--------------------------------------------------------------------
+- capture all the changes of main branch using pull for upto date 
+  information
+
+- then navigate to feature branch
+
+git checkout feature-branch
+git rebase main
+
+- if any conflicts then resolve that.
+
+git add .
+git rebase --continue
+
+- then all the changes of main will be featured into feature branch.
+
+--------------------------------------------------------------------
