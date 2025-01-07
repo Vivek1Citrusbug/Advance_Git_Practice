@@ -46,6 +46,8 @@ git push origin your-branch-name
 Git reset Commands : -----------------------------------------------
 --------------------------------------------------------------------
 
+rewrites the history so its pretty dangerous.
+
 Command	           Staging Area (Index)	               Working Directory	                         Typical Use Case
 git reset --soft	  Keeps all changes staged	          Keeps all changes in working directory	    Undo commit but keep changes staged for a new commit.
 git reset --mixed	  Unstages changes	                  Keeps all changes in working directory	    Undo commit and unstage changes for further edits.
