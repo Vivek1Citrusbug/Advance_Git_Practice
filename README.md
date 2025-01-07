@@ -51,4 +51,10 @@ git reset --soft	  Keeps all changes staged	          Keeps all changes in worki
 git reset --mixed	  Unstages changes	                  Keeps all changes in working directory	    Undo commit and unstage changes for further edits.
 git reset --hard	  Resets staging area completely	    Discards all changes in working directory	  Undo commit and completely discard changes.
 
+--------------------------------------------------------------------
+Git restore Commands : -----------------------------------------------
+--------------------------------------------------------------------
+
+git restore filename     # command used to restore the content of the file to match the content of the last commit 
+git restore --staged filename   # remove file from the staging area.
 
