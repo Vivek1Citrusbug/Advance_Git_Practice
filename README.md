@@ -52,9 +52,16 @@ git reset --mixed	  Unstages changes	                  Keeps all changes in work
 git reset --hard	  Resets staging area completely	    Discards all changes in working directory	  Undo commit and completely discard changes.
 
 --------------------------------------------------------------------
-Git restore Commands : -----------------------------------------------
+Git restore Commands : ---------------------------------------------
 --------------------------------------------------------------------
 
 git restore filename     # command used to restore the content of the file to match the content of the last commit 
 git restore --staged filename   # remove file from the staging area.
 
+--------------------------------------------------------------------
+Git clean Commands : ---------------------------------------------
+--------------------------------------------------------------------
+
+git clean -n  # shows untracked files which is going to be removed by this command
+git clean -f # removes the untracked files
+git clean -f -d # removes untracked directories
